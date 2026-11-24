@@ -2,14 +2,35 @@ function getAnswer() {
     var question = document.getElementById("question").value;
 
     var answers = [
-        "Meron pero depende",
-        "Wala syempre",
-        "baka may pag asa",
-        "Baka nga",
-        "Wag muna subukan masisira buhay mo",
-        "wala na yan wag muna pilit",
-        "Looks good",
-        "Better luck next life"
+"Yes, definitely!",
+"It is certain",
+"Without a doubt",
+"Absolutely!",
+"Signs point to yes.",
+"Most likely.",
+"You can count on it.",
+"Good things are coming!",
+"No, not likely.",
+"Definitely not.",
+"Don't count on it.",
+"My answer is no.",
+"Very doubtful.",
+"Not this time.",
+"Ask again later.",
+"Maybe, who knows?",
+"Time will tell.",
+"Cannot predict now.",
+"The future is uncertain.",
+"Focus and try again.",
+"The answer is unclear.",
+"Wait for the right moment.",
+"Your luck is loading...",
+"Ask Google instead!",
+"Even I don't know!",
+"404: Fortune not found.",
+"Trust your instincts!",
+"Maybe yes, maybe no!",
+"The universe is busy right now."
     ];
 
     if (question == "") {
